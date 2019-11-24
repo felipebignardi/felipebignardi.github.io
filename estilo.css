@@ -3,6 +3,22 @@
 	padding: 0px;
 }
 
+.skip-to-content {
+	background-color: #0000cc;
+	border: 2px solid white;
+	color: white;
+	font-family: Microsoft Sans Serif;
+	left: -999px;
+	padding: 8px;
+	position: absolute;
+	text-decoration: none;
+	top: 5px;
+}
+
+.skip-to-content:focus{
+	left: 5px;
+}
+
 .footer {
   background: #044BD9;
   color: white;
@@ -10,6 +26,25 @@
   font-size: 20px;
   padding: 20px;
   text-align: center;
+}
+
+#twitter-logo {
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+	width: 3%;
+}
+
+#instagram-logo {
+	float: left;
+	margin-left: 5px;
+	width: 3%;
+}
+
+#facebook-logo {
+	float: left;
+	margin-left: 15px;
+	width: 3%;
 }
 
 .decoration-inicio {
@@ -50,7 +85,8 @@
 }
 
 .imagens-inicio {
-	margin: 8px;
+	margin: 15px;
+	width: 23%; 
 }
 
 .main {
@@ -64,11 +100,12 @@
 	float: left;
 	height: 250px;
 	margin-left: 500px;
-	width: 350px;
+	width: 20%;
 }
 
 .main-data {
-	padding-left: 660px;
+	font-weight: bold;
+	margin-left: 84%;
 }
 
 .noticias {
@@ -99,8 +136,8 @@
 
 .fotos-noticia {
 	height: 500px;
-	padding-left: 570px;
-	width: 800px;
+	padding-left: 500px;
+	width: 60%;
 }
 
 .h2-titulo {
@@ -113,32 +150,32 @@
 
 .h2-sub-tema {
 	font-family: Arial;
-	padding-left: 600px;
+	padding-left: 650px;
 }
 
 .h2-sub-richard {
 	font-family: Arial;
-	padding-left: 570px;
+	padding-left: 610px;
 }
 
 .h2-sub-pompeo {
 	font-family: Arial;
-	padding-left: 550px;
+	padding-left: 590px;
 }
 
 .h2-sub-jackson {
 	font-family: Arial;
-	padding-left: 450px;
+	padding-left: 495px;
 }
 
 .h2-sub-atores {
 	font-family: Arial;
-	padding-left: 650px;
+	padding-left: 670px;
 }
 
 .h2-sub-foto {
 	font-family: Arial;
-	padding-left: 640px;
+	padding-left: 670px;
 }
 
 .conteudo-noticia {
@@ -151,22 +188,22 @@
 
 .h2-sub-katherine {
 	font-family: Arial;
-	padding-left: 700px;
+	padding-left: 750px;
 }
 
 .h2-sub-merluca {
 	font-family: Arial;
-	padding-left: 572px;
+	padding-left: 610px;
 }
 
 .h2-sub-addison {
 	font-family: Arial;
-	padding-left: 555px;
+	padding-left: 575px;
 }
 
 .h2-sub-ellen {
 	font-family: Arial;
-	padding-left: 585px;
+	padding-left: 615px;
 }
 
 .pad-galeria {
@@ -175,6 +212,7 @@
 
 .imagens-galeria {
 	margin-left: 90px;
+	width: 40%;
 }
 
 .h1-a-serie {
@@ -211,15 +249,78 @@
 	margin-left: 50px;
 }
 
+.home-h1 {
+	font-family: Microsoft Sans Serif;
+	margin-left: 500px;
+}
+
+#h1-a-serie {
+	font-size: 150%;
+}
+
+#pro-style {
+	font-weight: bold;
+}
 
 
+#h1-episodios {
+	font-family: Microsoft Sans Serif;
+	font-size: 300%;
+	font-weight: bold;
+	margin-left: 55%;
+}
 
+#h1-galeria {
+	font-family: Microsoft Sans Serif;
+	font-size: 300%;
+	font-weight: bold;
+	margin-left: 56%;
+}
 
+#h1-galeria-epi {
+	font-family: Microsoft Sans Serif;
+	font-size: 300%;
+	font-weight: bold;
+	margin-left: 50%;
+}
 
+#h1-galeria-foto {
+	font-family: Microsoft Sans Serif;
+	font-size: 300%;
+	font-weight: bold;
+	margin-left: 45%;
+}
 
+#h1-sobre {
+	font-family: Microsoft Sans Serif;
+	font-size: 300%;
+	font-weight: bold;
+	margin-left: 50%;
+}
 
+.p-noticias {
+	font-family: Arial;
+	font-size: 100%;
+	line-height: 55px;
+	margin-right: 50px;
+	padding-top: 15px;
+	text-align: justify;
+}
 
+#spoiler {
+	font-weight: bold;
+}
 
+#contato-h1 {
+	font-family: Microsoft Sans Serif;
+	font-size: 250%;
+	font-weight: bold;
+	margin-left: 27%;
+}
+
+.div-spotify {
+	width: 70%;
+}
 
 
 

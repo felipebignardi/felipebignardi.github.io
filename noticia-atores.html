@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Contato</title>
+	<title>Você sabe quais atores de Grey's Anatomy não se suportam na vida real?</title>
+
 	<link rel="stylesheet" href="estilo.css">
 
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -17,9 +18,9 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	
+
 	<style>
-		
+
 	.navbar {
 	  width: 100%;
 	  background-color: #044BD9;
@@ -60,13 +61,13 @@
 
 	.h1-anuncio {
 	  font-family: Arial;
-	  font-size: 40px;
+	  font-size: 250%;
 	  text-align: center;
 	}
 
 	.h2-anuncio {
 	  font-family: Arial;
-	  font-size: 20px;
+	  font-size: 50%;
 	  text-align: center;
 	}
 
@@ -79,68 +80,6 @@
 	  50%  {background-color: #000; color: #1ED760}
 	}
 
-	input[type=text], select, textarea {
-	  width: 70%;
-	  padding: 12px;
-	  margin-left: 10%;
-	  border: 1px solid #ccc;
-	  border-radius: 4px;
-	  resize: vertical;
-	}
-
-	label {
-	font-family: Microsoft Sans Serif;
-	padding: 0px 0px 0px 0;
-	display: inline-block;
-	margin-left: 30%;
-
-	}
-
-	input[type=submit] {
-	  background-color: #4CAF50;
-	  color: white;
-	  padding: 12px 20px;
-	  border: none;
-	  border-radius: 4px;
-	  cursor: pointer;
-	  float: right;
-	}
-
-	input[type=submit]:hover {
-	  background-color: #45a049;
-	}
-
-	.container {
-	  border-radius: 5px;
-	  padding: 20px;
-	}
-
-	.col-25 {
-	  float: left;
-	  width: 25%;
-	  margin-top: 6px;
-	}
-
-	.col-75 {
-	  float: left;
-	  width: 75%;
-	  margin-top: 6px;
-	}
-
-	/* Clear floats after the columns */
-	.row:after {
-	  content: "";
-	  display: table;
-	  clear: right;
-	}
-
-	@media screen and (max-width: 600px) {
-	  .col-25, .col-75, input[type=submit] {
-	    width: 70%;
-	    margin-top: 0;
-	  }
-	}
-
 	</style>
 
 </head>
@@ -148,17 +87,28 @@
 
 	<a href="#content" class="skip-to-content">Pular para o conteúdo</a>
 
+
 	<div class="navbar">
 	  <a href="index.html"><img src="logo-menu.png" alt="logo-menu" style="width: 80%;"></a>
 	  <a href="a-serie.html"><img src="a-serie.png" alt="logo-a-serie" style="width: 51%"></a>
 	  <a href="sobre.html"><img src="sobre.png" alt="logo-sobre" style="width: 45%;"></a> 
-	  <a href="noticias.html"><img src="noticias.png" alt="logo-noticias" style="width: 60%;"></a> 
+	  <a class="active" href="noticias.html"><img src="noticias.png" alt="logo-noticias" style="width: 60%;"></a> 
 	  <a href="episodios.html"><img src="episodios.png" alt="logo-episodios" style="width: 70%;"></a>
 	  <a href="galeria.html"><img src="galeria.png" alt="logo-galeria" style="width: 60%;"></a> 
-	  <a class="active" href="contato.html"><img src="contato.png" alt="logo-contato" style="width: 65%;"></a>
+	  <a href="contato.html"><img src="contato.png" alt="logo-contato" style="width: 65%;"></a>
 	</div>
-	
+
+	<br> <br>
+
+	<h1 class="h2-titulo">Você sabe quais atores de Grey's Anatomy não se suportam na vida real?</h1> <br>
+
+	<h2 class="h2-sub-atores">Escândalos nos bastidores vêm a tona e chocam os fãs</h2>
+
 	<br>
+
+	<img src="imagens/fotos1/9.jpg" class="fotos-noticia" alt="Atores Grey's Anatomy" title="Atores Grey's Anatomy">
+
+	<br> <br>
 
 	<div class="div">
 	  <div class="padding-anuncio">
@@ -167,7 +117,7 @@
 		<div class="h2-anuncio">
 			Depois, apenas R$16,90/mês. Cancele quando quiser.
       <br> <br>
-      <img src="spotify-icon.png" alt="Logo Spotify" title="Spotify" class="div-spotify">
+      <img src="spotify-icon.png" class="div-spotify" alt="Logo Spotify" title="Spotify">
 		 </div>
 	   </div>
 	  </div>
@@ -175,60 +125,37 @@
 
 	<div id="content"></div>
 
-	<h1 id="contato-h1">CONTATO</h1>
+	<div class="conteudo-noticia">
+		<div class="p-noticias">
 
-	<br>
-	
-	<div class="container">
-	  <form action="/action_page.php">
-	    <div class="row">
-	      <div class="col-25">
-	        <label for="fname">Nome</label>
-	      </div>
-	      <div class="col-75">
-	        <input type="text" id="fname" name="firstname" placeholder="Nome">
-	      </div>
-	    </div>
-	    <div class="row">
-	      <div class="col-25">
-	        <label for="lname">Assunto</label>
-	      </div>
-	      <div class="col-75">
-	        <input type="text" id="lname" name="lastname" placeholder="Assunto">
-	      </div>
-	    </div>
-	    <div class="row">
-	      <div class="col-25">
-	        <label for="country">País</label>
-	      </div>
-	      <div class="col-75">
-	        <select id="country" name="country">
-	          <option value="brasil">Brasil</option>
-	          <option value="canada">Canada</option>
-	          <option value="usa">USA</option>
-	        </select>
-	      </div>
-	    </div>
-	    <div class="row">
-	      <div class="col-25">
-	        <label for="subject">Mensagem</label>
-	      </div>
-	      <div class="col-75">
-	        <textarea id="subject" name="subject" placeholder="Mensagem" style="height:200px"></textarea>
-	      </div>
-	    </div>
-	    <div class="row">
-	      <input style="margin-right: 20%; margin-top: 2%;" type="submit" value="Enviar">
-	    </div>
-	  </form>
+		<p>Amigos na tela, desafetos longe dela. É essa a realidade para vários atores de Grey’s Anatomy. Afinal, em uma série de mais de 14 anos, nem todos os integrantes do elenco conseguem se dar bem.</p>
+
+		<p>O site The Trendy listou 7 duplas de atores e atrizes de Grey’s Anatomy que podem até ter uma relação amigável na série, porém não se dão bem na vida real.</p>
+
+		<p>Entre membros do elenco que já se despediram e personagens da Grey’s Anatomy atual, confira os exemplos abaixo!</p>
+
+		<p>Na verdade, Katherine Heigl se desentendeu com grande parte do elenco, equipe de produção e roteiristas de Grey’s Anatomy quando deixou a série em 2010.</p>
+
+		<p>Além de criticar a qualidade do enredo da série, a atriz teria deixado de falar com vários colegas muito antes de sua saída.</p> 
+
+		<p>Após a saída da atriz, Ellen Pompeo disse que Heigl deveria ter renovado o contrato, já que “sua carreira no cinema não deu muito certo”.</p>
+
+		<p>Shonda Rhimes não faz parte do elenco de Grey’s Anatomy. Porém, sem a produtora e showrunner, a série nunca existiria.</p>
+
+		<p>Embora nunca tenha falado diretamente sobre o tema, aparentemente Shonda não tinha uma boa relação com Patrick Dempsey, o Derek Shepherd, em suas últimas temporadas na série. Segundo fontes ligadas à produção, o comportamento de “diva” do ator nos bastidores e suas exigências não agradaram nada a então showrunner.</p>
+
+		<p>Amantes em Grey’s Anatomy, a relação de Ellen Pompeo e Patrick Dempsey fora das telas foi um pouco complicada.</p>
+
+		<p>Segundo a atriz, os showrunners da série usavam a presença do ator para ameaçar Pompeo, afirmando que se ela não renovasse seu contrato, eles sempre poderiam contar com Dempsey.</p>
+
+		<p>A atriz também disse que tentou contar ao ator o que estava acontecendo e negociar junto com ele, mas Dempsey teria recusado os pedidos.</p>
+
+		<p>T.R. Knight pode até não ter nada contra Shonda Rhimes como pessoa. Porém, o ator deixou a série após se frustrar com a direção narrativa de seu personagem. Na última temporada do ator, sua comunicação com Shonda se tornou cada dia mais complicada, e no final das contas ele decidiu pedir para sair.</p>
+
+		</div>
 	</div>
 
-
-<br> <br> <br> <br> <br> <br>
-<br> <br> <br> <br> <br> <br>
-<br> <br> <br> <br> <br> <br>
-<br> <br> <br> <br> <br> <br>
-
+	<br> <br> <br>
 
 	<div class="footer">
 		<a href="https://twitter.com/centralgreysbr"><img src="twitter.png" alt="twitter-logo" id="twitter-logo"></a>
@@ -237,6 +164,8 @@
 		<p>Central Grey's Anatomy</p>
 		<p>Todos os direitos reservados</p>
 	</div>
+
+
 
 
 </body>
